@@ -1,4 +1,4 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
 export const useToastStore = defineStore({
     id: 'toast',
@@ -18,7 +18,7 @@ export const useToastStore = defineStore({
             this.isVisible = true
 
             setTimeout(() => {
-                this.classes += '-translate-y-28'
+                this.classes += ' -translate-y-28'
             }, 10)
 
             setTimeout(() => {

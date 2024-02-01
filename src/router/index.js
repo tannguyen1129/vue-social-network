@@ -6,9 +6,6 @@ import LoginView from '../views/LoginView.vue'
 import MessagesView from '../views/MessagesView.vue'
 import SearchView from '../views/SearchView.vue'
 
-
-
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -29,7 +26,7 @@ const router = createRouter({
     },
     {
       path: '/login',
-      name: 'longin',
+      name: 'login',
       component: LoginView
     },
     {
